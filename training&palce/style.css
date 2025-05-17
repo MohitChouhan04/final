@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(95, 93, 93);
+}
+.pdfs{
+    padding-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3,0.5rem);
+    gap: 5rem;
+    justify-content: space-around;
+   
+
+}
+.btn{
+    width: 200px;
+    height: 80px;
+    border-radius:15px;
+}
+.main-btn{
+    margin: 1rem;
+    width: 100px;
+    padding: 15px;
+    border-radius: 10px;
+    
+    
+    
+}
+.main-button{
+    display:grid;
+    justify-content: end;
+    margin-right: 50px;
+}
