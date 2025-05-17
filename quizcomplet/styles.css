@@ -1,0 +1,169 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f9f9f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+ button .share .sharebtn{
+    padding: 20rem;
+
+}
+/* Main Container */
+.container {
+    width: 50%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Headings */
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+h2 {
+    color: #007BFF;
+    font-size: 20px;
+}
+
+/* Inputs & Buttons */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button.addques{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+button.nextquest{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+button.starter{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.share button{
+   padding: 0 10rem ;
+}
+
+button:hover {
+    background-color: rgb(131, 0, 254);
+}
+
+/* Quiz Section */
+.quiz-container {
+    margin-top: 20rem;
+    padding: 15px;
+    border-radius: 10px;
+    background: #e9f5ff;
+}
+
+#quizSection {
+    display: none;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+/* Question List */
+.questions-list ul {
+    text-align: left;
+    padding: 0;
+}
+
+.questions-list li {
+    background: #f8f9fa;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    list-style: none;
+}
+
+/* Quiz Options */
+#quizOptions label {
+    display: block;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+#quizOptions label:hover {
+    background-color: #cce5ff;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input, button {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
